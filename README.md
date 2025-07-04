@@ -18,15 +18,11 @@
 
 ## 🚀 安装与使用
 
-1.  下载适用于您操作系统的最新版本。
-2.  运行程序，程序将驻留在系统托盘。
-3.  使用 `Ctrl+Alt+P` 开始截图，或通过托盘菜单交互。
-
-## 👨‍💻
-
-如果您想从源码运行或参与开发：
-
 1.  克隆本仓库: `git clone https://github.com/YourUsername/YourRepoName.git`
 2.  创建并激活虚拟环境。
-3.  安装依赖: `pip install -r requirements.txt` (您需要先创建一个`requirements.txt`文件)
+3.  安装依赖: `pip install -r requirements.txt` 
 4.  运行主程序: `python main.py`
+5.  [可选]导出为可执行文件pyinstaller --name PinClip --onefile --noconsole --icon=icon.png --hidden-import=pynput.keyboard._xorg main.py
+6.  使用 `Ctrl+Alt+P` 开始截图，或通过托盘菜单交互
+7.  对网页上可拖动的图片可以拖动到当前窗口上【原截图会被覆盖】
+8.  点击截图窗口，ESC关闭
